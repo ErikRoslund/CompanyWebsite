@@ -21,7 +21,10 @@ header {
   grid-column: 1 / -1;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
+  background-color: var(--black);
+}
 
+.HomePG {
   background-image: url(littlenightmaresBG.jpg);
   background-position: center center !important;
   background-size: cover !important;
@@ -45,10 +48,6 @@ header {
 
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 0.5fr 1fr 1fr;
-
-    background-image: url(littlenightmaresBG.jpg);
-    background-position: center center !important;
-    background-size: cover !important;
   }
 
   .logo {
